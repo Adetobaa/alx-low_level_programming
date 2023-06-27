@@ -3,11 +3,12 @@
 /**
  * _puts - prints a string, followed by a new line, to stdout
  * @str: string to print
+ * Return: void
  */
 
 void _puts(char *str)
 {
-	while (*str != '\0')
+	for (; *str != '\0'; str++)
 	{
 		_putchar(*str++);
 	}
