@@ -1,49 +1,15 @@
-#include <main.h>
+#include <stdio.h>
 
 /**
- * _puts - prints a string
- * @str: the string to print
- * Return: void
+ * _puts - Prints a string followed by a new line to stdout.
+ * @str: The string to be printed.
  */
-
 void _puts(char *str)
-
 {
-	for (; *str != '\0'; str++)
+	while (*str != '\0')
 	{
-	_putchar(*str);
+		putchar(*str);
+		str++;
 	}
-	_putcgar('\n');
-}#include <main.h>
-
-/**
- * _puts - prints a string
- * @str: the string to print
- * Return: void
- */
-
-void _puts(char *str)
-
-{
-	for (; *str != '\0'; str++)
-	{
-	_putchar(*str);
-	}
-	_putcgar('\n');
-}#include <main.h>
-
-/**
- * _puts - prints a string
- * @str: the string to print
- * Return: void
- */
-
-void _puts(char *str)
-
-{
-	for (; *str != '\0'; str++)
-	{
-	_putchar(*str);
-	}
-	_putcgar('\n');
+	putchar('\n');
 }
