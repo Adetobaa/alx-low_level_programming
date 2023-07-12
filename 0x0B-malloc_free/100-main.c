@@ -4,10 +4,8 @@
 
 /**
 * main - check the code for ALX School students.
-*
-* @ac: integer input array
-*
-* @av: integer input array
+* @av: char input
+* @ac: integer input
 * Return: Always 0.
 */
 int main(int ac, char *av[])
