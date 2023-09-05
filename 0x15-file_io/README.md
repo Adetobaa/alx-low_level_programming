@@ -1,1 +1,1 @@
-This project is on File Descriptor based on posix
+This project is on File Descriptor
